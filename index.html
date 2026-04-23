@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> SynSystems </title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>SynSystems</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="home"></i>Home</a></li>
+                <li><a href="education.html"><i class="education"></i> Education</a></li>
+                <li><a href="analyzer.html"><i class="analyzer"></i> Analyzer</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Change is Imminent</h2>
+            <p>Save our Planet</p>
+            <div class="hero-buttons">
+                <a href="education.html" id="education-btn">Learn More</a>
+                <a href="analyzer.html" id="plotter-btn">Analyze your Plot</a>
+            </div>
+        </div>
+    </section>
+    <section class="index-links-container">
+        <div class="index-link-card">
+            <h3>Regenerative Practices</h3>
+            <p>Learn about regenerative farming practices</p>
+            <a href="education.html" class="education-btn"> Explore Resources</a>
+        </div>
+        <div class="index-link-card">
+            <h3>Crop Plotter</h3>
+            <p> Plot Your Crops</p>
+            <a href="analyzer.html" class="plotter-btn">Try The Tool</a>
+        </div>
+    </section>
+    <section class="interest-form">
+        <div class="form-container">
+            <h2>Join the Movement</h2>
+            <p>Stay updated with regenerative agriculture news and tools.</p>
+
+            <form id="intakeForm" class="intake-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Subscribe</button>
+            </form>
+
+        </div>
+    </section>
+
+    <div id="confirmationPopup" class="Popup">
+        <div class="popup-content">
+            <h3 id="popupTitle">Success!</h3>
+            <p id="popupMessage">Thank you for joining SynSystems!</p>
+            <button class="popup-btn" onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
+    
+        <footer>
+            <div class="footer-content">
+                <p>© 2025 SynSystems | Regenerative Agriculture Solutions</p>
+            </div>
+        </footer>
+        <script src="SynScript/index.js"></script>
+</body>
+
+</html>
